@@ -3,7 +3,7 @@
 
 ## Usage
 
-**Client side**
+*Client side*
 
 Include lib file to your HTML document
 
