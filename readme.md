@@ -95,6 +95,12 @@ The result will be:
 }
 ```
 
+## Features
+
+**The 'replaceOnly' mode**
+
+If you specify `replaceOnly: true` in an `options` argument - your result object will get only those values from merging object (obj2) that stored under existing in base object (obj1) keys. If someone will try to merge new keys into object - the `merge()` function will return `null` (merge fail). It is extremely useful when, for instance, you have a reference config (self-documenting, showing all the possible options) in your project and you want to let users to change described config properties only but not add new ones (since if it is not described in reference config - it is not supported).
+
 ## Testing
 
 Go to directory `Tests` and run `bower install` it will install testing framework `qunit` then just open `Tests/index.html` in your browser.
