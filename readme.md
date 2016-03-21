@@ -92,7 +92,7 @@ The result will be:
 }
 ```
 
-## Testing library
+## Testing
 
 Go to directory `Tests` and run `bower install` it will install testing framework `qunit` then just open `Tests/index.html` in your browser.
 
