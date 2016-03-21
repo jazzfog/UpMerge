@@ -60,7 +60,7 @@ var options = {
 };
 ```
 
-Now, how you do it on client or server
+Now, merging
 
 **Client side**
 
