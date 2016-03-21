@@ -75,7 +75,6 @@ Now, merging:
 
 ```javascript
 var um = require('upmerge');
-//... declare `obj1`, `obj2` and `options` here.
 var resultObj = upmerge.merge(obj1, obj2, options);
 console.log(resultObj);
 ```
