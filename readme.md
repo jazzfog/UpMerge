@@ -16,10 +16,15 @@ Merge JavaScript objects
 ```javascript
 <script type="text/javascript">
 
+	// The values shown here are defaults so if you do not need to change 
+	// anything - you can skip `options` argument, it is optional
 	var options = {
+			// Clone obj1 so it will not be changed during merge
 			clone: true,
+			// Recursive `deep` merge - all object levels will be merged in opposite to first-level
 			deep: true,
-			replaceOnly: false
+			 // Only replace existing key/values in original object, return `null` if obj2 contains key
+			replaceOnly: false with does not exist in obj1
 	};
 
 	var obj1 = {
