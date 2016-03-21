@@ -43,7 +43,7 @@ var obj2 = {
 
 You merge them with function `merge()` using set of options
 
-```
+```JavaScript
 // The values shown here are defaults so if you do not need to change 
 // anything - you can skip `options` argument, it is optional
 var options = {
