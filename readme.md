@@ -5,7 +5,7 @@
 
 **Client side**
 
-Include lib file to your HTML document
+Include lib file to your `HTML` document
 
 ```html
 <script src="../upmerge.js"></script>
