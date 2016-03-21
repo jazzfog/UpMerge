@@ -12,7 +12,7 @@ Client side:
 Download file `build/upmerge.js`, put it under your `public` directory and include it in your HTML
 
 ```html
-<script src="../upmerge.js"></script>
+<script src="upmerge.js"></script>
 ```
 
 Install via bower will be available later
@@ -91,3 +91,9 @@ The result will be:
 	d: 'Wow'
 }
 ```
+
+## Testing library
+
+Go to directory `Tests` and run `bower install` it will install testing framework `qunit` then just open `Tests/index.html` in your browser.
+
+Little bit more information about test cases structure you will find in `cases.js`.
