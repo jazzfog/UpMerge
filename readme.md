@@ -22,23 +22,23 @@ Install via bower will be available later
 Consider you have two objects
 
 ```JavaScript
-	var obj1 = {
-		a: 'Hi',
-		b: 'World',
-		c: {
-			a: 'Alpha',
-			b: 'Beta'
-		}
-	};
+var obj1 = {
+	a: 'Hi',
+	b: 'World',
+	c: {
+		a: 'Alpha',
+		b: 'Beta'
+	}
+};
 
-	var obj2 = {
-		a: 'Hello',
-		c: {
-			g: 'Gamma',
-			d: 'Delta'
-		},
-		d: 'Wow'
-	};
+var obj2 = {
+	a: 'Hello',
+	c: {
+		g: 'Gamma',
+		d: 'Delta'
+	},
+	d: 'Wow'
+};
 ```
 
 You merge them with function `merge()` using set of options
