@@ -33,14 +33,16 @@ let casesMerge = [
 			e: {
 				ee1: 'EE-1',
 				ee2: 'EE-2'
-			}
+			},
+			f: 'F-x'
 		},
 		ext: {
 			c: 'C',
 			d: 'D',
 			e: {
 				eex: 'EE-X'
-			}
+			},
+			f: 'F-y'
 		},
 		options: {
 			deep: false
@@ -52,7 +54,8 @@ let casesMerge = [
 			d: 'D',
 			e: {
 				eex: 'EE-X'
-			}
+			},
+			f: 'F-y'
 		}
 	},
 
