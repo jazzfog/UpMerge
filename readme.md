@@ -41,11 +41,11 @@ var obj2 = {
 };
 ```
 
-You merge them with function `merge()` using set of options
+You merge them with function `merge()`, using set of options.
+
+The values shown below are *defaults* so if you do not want to change anything - you can skip `options` argument, it is optional.
 
 ```JavaScript
-// The values shown here are defaults so if you do not need to change 
-// anything - you can skip `options` argument, it is optional
 var options = {
 	// Clone obj1 so it will not be changed during merge
 	clone: true,
