@@ -1,5 +1,3 @@
-// Version 0.1.3
-
 ;
 //noinspection JSUnresolvedVariable
 (function (isNode) {

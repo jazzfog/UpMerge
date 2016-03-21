@@ -2,7 +2,7 @@
   "name": "upmerge",
   "title": "UpMerge",
   "description": "JavaScript Object Merge for Client or Server side",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "homepage": "https://github.com/jazzfog/UpMerge",
   "author": {
     "name": "Pavel Pushkaryov",
