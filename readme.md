@@ -5,7 +5,7 @@
 
 Server side, via `npm`:
 
-`npm install upmerge`
+`npm install upmerge --save`
 
 Client side:
 
