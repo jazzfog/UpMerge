@@ -60,7 +60,7 @@ var options = {
 };
 ```
 
-Now, merging
+Now, merging:
 
 **Client side**
 
