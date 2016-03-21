@@ -1,9 +1,9 @@
 # UpMerge
-JavaScript Object Merge for Client or Server side
+**JavaScript Object Merge for Client or Server side**
 
 ## Usage
 
-Client side
+**Client side**
 
 Include lib file to your HTML document
 
