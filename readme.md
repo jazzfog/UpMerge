@@ -3,10 +3,12 @@
 
 ## Installation
 
-Server side, via `npm`
+Server side, via `npm`:
+
 `npm install upmerge`
 
 Client side:
+
 Download file `build/upmerge.js`, put it under your `public` directory and include it in your HTML
 
 ```html
