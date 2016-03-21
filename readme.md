@@ -47,12 +47,16 @@ The values shown below are *defaults* so if you do not want to change anything -
 
 ```JavaScript
 var options = {
+	
 	// Clone obj1 so it will not be changed during merge
 	clone: true,
-	// Recursive `deep` merge - all object levels will be merged in opposite to first-level
+	
+	// Recursive `deep` merge - `all` object levels will be merged in opposite to `first-level merge`
 	deep: true,
-	 // Only replace existing key/values in original object, return `null` if obj2 contains key
-	replaceOnly: false with does not exist in obj1
+	
+	// Only replace keys/values present in first object OR `return null` if second object contains
+	// key that does not exist in obj1
+	replaceOnly: false
 };
 ```
 
