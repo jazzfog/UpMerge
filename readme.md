@@ -1,5 +1,5 @@
 # UpMerge
-*JavaScript Object Merge for Client or Server side*
+*JavaScript Object Merge and clone for Client or Server side*
 
 ## Installation
 
