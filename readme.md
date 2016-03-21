@@ -74,7 +74,7 @@ Now, merging:
 **Server side**
 
 ```javascript
-var um = require('upmerge');
+var upmerge = require('upmerge');
 var resultObj = upmerge.merge(obj1, obj2, options);
 console.log(resultObj);
 ```
@@ -95,7 +95,15 @@ The result will be:
 }
 ```
 
-## Features
+## Cloning
+
+You can use this library not just for merging but also for simple cloning JavaScript objects
+
+```JavaScript
+var clonedObj = upmerge.clone(origObj);
+```
+
+## Special features
 
 **The 'replaceOnly' mode**
 
