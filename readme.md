@@ -23,7 +23,7 @@ Install via bower will be available later
 
 ## Usage
 
-Consider you have two objects
+Let's assume that you have two objects
 
 ```JavaScript
 var obj1 = {
