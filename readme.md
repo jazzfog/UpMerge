@@ -9,11 +9,15 @@ Server side, via `npm`:
 
 Client side:
 
-Download file `build/upmerge.js`, put it under your `public` directory and include it in your HTML
+`bower install upmerge --save`
+
+Then include it in your HTML document:
 
 ```html
-<script src="upmerge.js"></script>
+<script src="/bower_components/UpMerge/build/upmerge.js"></script>
 ```
+
+If you do not use `bower` or `npm` you can just download `build/upmerge.js` file from this repository and include it in your project.   
 
 Install via bower will be available later
 
@@ -111,6 +115,6 @@ If you specify `replaceOnly: true` in an `options` argument - your result object
 
 ## Testing
 
-Go to directory `tests` and run `bower install` it will install testing framework `qunit` then just open `tests/index.html` in your browser.
+Clone or download the repository, go to directory `tests` and run `bower install` it will install testing framework `qunit` then just open `tests/index.html` in your browser.
 
 Little bit more information about test cases structure you will find in `cases.js`.
