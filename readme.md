@@ -117,4 +117,4 @@ Clone or download the repository, go to directory `tests` and run `bower install
 
 Little bit more information about test cases structure you will find in `cases.js`.
 
-The end.
+The end
