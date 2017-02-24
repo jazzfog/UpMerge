@@ -116,3 +116,5 @@ If you specify `replaceOnly: true` in an `options` argument - your result object
 Clone or download the repository, go to directory `tests` and run `bower install` it will install testing framework `qunit` then just open `tests/index.html` in your browser.
 
 Little bit more information about test cases structure you will find in `cases.js`.
+
+The end.
