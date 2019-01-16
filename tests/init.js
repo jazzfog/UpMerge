@@ -80,3 +80,18 @@ casesAdd.forEach((item, index) => {
 	}); // QUnit.test
 
 }); // cases.forEach
+
+QUnit.test('Should not allow prototype pollution', (assert) => {
+	{
+		let payload = '{"__proto__":{"polluted":"Prototype is polluted"}}';
+		let test = {};
+		upmerge.merge({}, JSON.parse(payload));
+		assert.equal(test.polluted, undefined);
+	}
+	{
+		let payload = '{"parentProp": {"__proto__":{"polluted":"Prototype is polluted"}}}';
+		let test = {};
+		upmerge.merge({}, JSON.parse(payload));
+		assert.equal(test.polluted, undefined);
+	}
+});
