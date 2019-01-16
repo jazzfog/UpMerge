@@ -3,21 +3,9 @@
 
 ## Installation
 
-Server side, via [npm](https://www.npmjs.com):
-
 `npm install upmerge --save`
 
-Client side, via [bower](http://bower.io):
-
-`bower install upmerge --save`
-
-Then include it in your HTML document:
-
-```html
-<script src="/bower_components/UpMerge/build/upmerge.js"></script>
-```
-
-If you do not use `bower` or `npm` you can just download `build/upmerge.js` file from this repository and include it in your project.
+If you do not use `npm` you can just download `build/upmerge.js` file from this repository and include it in your project.
 
 ## Usage
 
