@@ -113,6 +113,11 @@
 		var mergeWorker = function (objBase, objExt) {
 
 			for (var key in objExt) {
+
+				if (key === '__proto__') {
+					continue;
+				}
+
 				if (objExt.hasOwnProperty(key)) {
 
 					if (options.replaceOnly && isUndefined(objBase[key])) {
